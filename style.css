@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-size: 20px;
+    font-family: helvetica, sans-serif;
+    background-color: #ddebf3;
+    background-image: linear-gradient(to bottom, #e7e7e7, #ffffff);
+}
+
+header {
+    background-color: #e3f4ff;
+    padding: 30px;
+    text-align: center;
+}
+
+#subtitulo {
+    font-size: 15px;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #222;
+}
+
+nav a {
+    float: left;
+    color: #bdbdbd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #127ab6;
+    color: #ffffff;
+    text-shadow: 0 0 18px #ffffff;
+}
+
+section, nav {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+section {
+    padding-top: 100px;
+}
+
+#inscricao {
+    padding-top: 100px;
+}
+
+img {
+    width: 100%;
+    max-width: 455px;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+footer {
+    margin-top: 300px;
+    padding-top: 100px;
+    background-color: #222;
+    font-size: 15px;
+    font-family: arial;
+    color: #ffff;
+    padding-left: 30px;
+}
